@@ -177,20 +177,3 @@ transition:.3s;
 .contact button:hover{
 background:#1F3A5F;
 }
-@media(max-width:900px){
-
-.problem{
-grid-template-columns:1fr;
-padding:70px 6%;
-}
-
-.problem-img{
-max-height:300px;
-margin-top:20px;
-}
-
-.hero h1{
-font-size:34px;
-}
-
-}
