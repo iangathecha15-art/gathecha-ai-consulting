@@ -6,7 +6,206 @@
 <title>Gathecha AI Consulting</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
 
+body{
+margin:0;
+font-family:'Open Sans',sans-serif;
+color:#333;
+line-height:1.7;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background-image:url("automation.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+padding:20px;
+}
+
+.hero::after{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.75);
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+color:white;
+text-align:center;
+max-width:800px;
+}
+
+.hero h1{
+font-family:'Poppins',sans-serif;
+font-size:52px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:19px;
+}
+
+.btn{
+background:#2EC4B6;
+padding:16px 35px;
+display:inline-block;
+margin-top:25px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#1F3A5F;
+}
+
+/* PROBLEM */
+
+.problem{
+display:flex;
+align-items:center;
+gap:60px;
+padding:90px 8%;
+}
+
+.problem-text{
+flex:1;
+}
+
+.problem-img{
+flex:1;
+width:100%;
+border-radius:12px;
+}
+
+/* SERVICES */
+
+.services{
+background:#f4f4f4;
+padding:90px 8%;
+text-align:center;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:35px;
+margin-top:50px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 15px 25px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+/* VALUE */
+
+.value{
+padding:90px 15%;
+text-align:center;
+}
+
+/* PROCESS */
+
+.process{
+background:#2EC4B6;
+color:white;
+padding:90px 10%;
+text-align:center;
+}
+
+.steps{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+margin-top:40px;
+font-size:20px;
+}
+
+/* CONTACT */
+
+.contact{
+padding:90px 10%;
+text-align:center;
+background:#f4f4f4;
+}
+
+.contact button{
+padding:15px 28px;
+margin:12px;
+border:none;
+background:#2EC4B6;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:6px;
+transition:.3s;
+}
+
+.contact button:hover{
+background:#1F3A5F;
+}
+
+/* FOOTER */
+
+footer{
+background:#1F3A5F;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:36px;
+}
+
+.problem{
+flex-direction:column;
+}
+
+.service-grid{
+grid-template-columns:1fr;
+}
+
+.steps{
+grid-template-columns:1fr;
+}
+
+.value{
+padding:70px 8%;
+}
+
+}
+
+</style>
 </head>
 
 <body>
