@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gathecha AI Consulting</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Open Sans',sans-serif;
+color:#333;
+line-height:1.7;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background-image:url("automation.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+padding:20px;
+}
+
+.hero::after{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.75);
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+color:white;
+text-align:center;
+max-width:800px;
+}
+
+.hero h1{
+font-family:'Poppins',sans-serif;
+font-size:52px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:19px;
+}
+
+.btn{
+background:#2EC4B6;
+padding:16px 35px;
+display:inline-block;
+margin-top:25px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#1F3A5F;
+}
+
+/* PROBLEM */
+
+.problem{
+display:flex;
+align-items:center;
+gap:60px;
+padding:90px 8%;
+}
+
+.problem-text{
+flex:1;
+}
+
+.problem-img{
+flex:1;
+width:100%;
+border-radius:12px;
+}
+
+/* SERVICES */
+
+.services{
+background:#f4f4f4;
+padding:90px 8%;
+text-align:center;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:35px;
+margin-top:50px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 15px 25px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+/* VALUE */
+
+.value{
+padding:90px 15%;
+text-align:center;
+}
+
+/* PROCESS */
+
+.process{
+background:#2EC4B6;
+color:white;
+padding:90px 10%;
+text-align:center;
+}
+
+.steps{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+margin-top:40px;
+font-size:20px;
+}
+
+/* CONTACT */
+
+.contact{
+padding:90px 10%;
+text-align:center;
+background:#f4f4f4;
+}
+
+.contact button{
+padding:15px 28px;
+margin:12px;
+border:none;
+background:#2EC4B6;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:6px;
+transition:.3s;
+}
+
+.contact button:hover{
+background:#1F3A5F;
+}
+
+/* FOOTER */
+
+footer{
+background:#1F3A5F;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:36px;
+}
+
+.problem{
+flex-direction:column;
+}
+
+.service-grid{
+grid-template-columns:1fr;
+}
+
+.steps{
+grid-template-columns:1fr;
+}
+
+.value{
+padding:70px 8%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<div class="hero-content">
+
+<h1>Transform Manual Workflows into Efficient Automated Systems</h1>
+
+<p>
+Gathecha AI Consulting  is here to support small accounting and law firms in improving operational efficiency through practical AI automation solutions. AI has been growing rapidly in recent years and is becoming very effective in automating processes to save on time and resources.
+Many growing professional firms still depend on manual administrative processes that reduce productivity and increase pressure. That is where our AI consalting services come in. Trust us to help you with structured workflow automation and your businesses will definately save time and reduce stress. We are here to help you focus more on delivering quality services to clients and reduce your manual work load.
+</p>
+
+<a class="btn">Book Free Workflow Audit</a>
+
+</div>
+</section>
+
+<section class="problem">
+
+<div class="problem-text">
+
+<h2>Are Manual Processes Slowing Your Business Growth? We have the best solution for you</h2>
+
+<p>
+There are several workflow challenges that limit performance and growth potential of your business. Things like repetitive data entry, inefficient document handling and delayed client communication can create challenges that affect service delivery in the long run. These inefficiencies often reduce productivity and make it difficult for businesses to grow as expected.
+</p>
+
+<p>
+Introducing automation technologies to your business will give you opportunities to simplify these processes and improve on operational work. The main aim of introducing automation is to reduce reliance on manual tasks so that teams can have more time to strategic responsibilities such as client relationship management and business development. This shift will improve internal efficiency while maintaining overall client satisfaction.
+</p>
+
+</div>
+
+<img src="stressed.jpg" class="problem-img">
+
+</section>
+
+<section class="services">
+
+<h2>Consulting Solutions</h2>
+
+<div class="service-grid">
+
+<div class="card">
+<img src="solutions.jpg">
+<h3>AI Workflow Audit</h3>
+<p>
+This auditing aims at evaluating current workflows to identify areas that need improvement. After identifying areas of weakness it prioritise automation opportunities that deliver measurable  performance improvements.
+</p>
+</div>
+
+<div class="card">
+<img src="solutions.jpg">
+<h3>Implementation Support</h3>
+<p>
+We offer practical implementation to ensure that automation tools integrate smoothly with existing systems. This involes several steps which are configuring platforms, establishing workflow triggers and guiding staff so they can easily adopt to the new systems.
+</p>
+</div>
+
+<div class="card">
+<img src="solutions.jpg">
+<h3>Workflow Optimisation</h3>
+<p>
+After coming up with the system, we will help in continuous monitoring so as maintain automation effectiveness.This will ensure that solutions adapt to operational changes and continue delivering productivity without failing.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="value">
+
+<h2>Business Outcomes</h2>
+
+<p>
+Businesses working with Gathecha AI Consulting are guaranteed reduced administrative workload, improved turnaround times and most importantly enhanced workflow transparency. These measurable outcomes ensure stronger team performance and allow firms to manage increasing workloads without the stress of additional staffing. Automation also improves decision-making by providing clearer visibility into task progress and operational performance. When you automate with us, your business is guranteed of contributing to long-term scalability and having competitive advantage.
+</p>
+
+</section>
+
+<section class="process">
+
+<h2>Consulting Approach</h2>
+
+<div class="steps">
+
+<div>1. Discovery Consultation</div>
+<div>2. Workflow Assessment</div>
+<div>3. Automation Implementation</div>
+<div>4. Performance Optimisation</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Start Your Automation Journey</h2>
+
+<p>
+Download a free AI readiness checklist or book a consultation to discover how practical automation strategies can improve your business performance. Copy the contact details below to get in touch instantly.
+</p>
+
+<button onclick="copyText('+61412345678')">Copy Phone Number</button>
+<button onclick="copyText('info@gathechaai.com')">Copy Email Address</button>
+
+</section>
+
+<footer>
+<p>Gathecha AI Consulting | Helping SMEs achieve practical automation outcomes</p>
+</footer>
+
+<script>
+function copyText(text){
+navigator.clipboard.writeText(text);
+alert("Copied: " + text);
+}
+</script>
+
+</body>
+</html>
