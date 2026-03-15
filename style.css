@@ -56,16 +56,29 @@ background:#1F3A5F;
 /* PROBLEM */
 
 .problem{
-display:flex;
-padding:80px;
-gap:40px;
+display:grid;
+grid-template-columns:1.1fr 0.9fr;
 align-items:center;
+gap:50px;
+padding:100px 10%;
 }
 
 .problem-img{
-width:400px;
-border-radius:10px;
+width:100%;
+max-height:420px;
+object-fit:cover;
+border-radius:14px;
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
 }
+.problem-text{
+max-width:600px;
+}
+.problem{
+background:#fafafa;
+border-top:1px solid #eee;
+border-bottom:1px solid #eee;
+}
+
 
 /* SERVICES */
 
